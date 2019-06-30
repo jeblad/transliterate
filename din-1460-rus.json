@@ -1,0 +1,378 @@
+{
+	"name": "DIN 1460:1982 RUS",
+	"desc": "Cyrillic (rus) to Latin",
+	"forward": "yes",
+	"reverse": "yes",
+	"window": 1,
+	"sets": [
+		{
+			"description": "Context dependent multi character rules",
+			"weight": 700,
+			"rules": [
+				{
+					"from": "х",
+					"to": "ch"
+				},
+				{
+					"from": "Х",
+					"to": "CH",
+					"before": "[\\p{IsUpper}\\p{IsSpace}]",
+					"after": "[\\p{IsUpper}\\p{IsSpace}]"
+				},
+				{
+					"from": "Х",
+					"to": "Ch"
+				},
+				{
+					"from": "щ",
+					"to": "šč"
+				},
+				{
+					"from": "Щ",
+					"to": "ŠČ",
+					"before": "[\\p{IsUpper}\\p{IsSpace}]",
+					"after": "[\\p{IsUpper}\\p{IsSpace}]"
+				},
+				{
+					"from": "Щ",
+					"to": "Šč"
+				},
+				{
+					"from": "Ъ",
+					"to": "\"",
+					"before": "([^\\p{IsWord}]|$)",
+					"after": "\\p{IsUpper}"
+				},
+				{
+					"from": "ъ",
+					"to": "\"",
+					"before": "([^\\p{IsWord}]|$)",
+					"after": "\\p{IsWord}"
+				},
+				{
+					"from": "ъ",
+					"to": "\"",
+					"before": "\\p{IsWord}",
+					"after": "\\p{IsWord}"
+				},
+				{
+					"from": "Ъ",
+					"to": "\"",
+					"before": "\\p{IsWord}",
+					"after": "\\p{IsWord}"
+				},
+				{
+					"from": "ю",
+					"to": "ju"
+				},
+				{
+					"from": "Ю",
+					"to": "JU",
+					"before": "[\\p{IsUpper}\\p{IsSpace}]",
+					"after": "[\\p{IsUpper}\\p{IsSpace}]"
+				},
+				{
+					"from": "Ю",
+					"to": "Ju"
+				},
+				{
+					"from": "я",
+					"to": "ja"
+				},
+				{
+					"from": "Я",
+					"to": "JA",
+					"before": "[\\p{IsUpper}\\p{IsSpace}]",
+					"after": "[\\p{IsUpper}\\p{IsSpace}]"
+				},
+				{
+					"from": "Я",
+					"to": "Ja"
+				},
+				{
+					"from": "Й",
+					"to": "J-",
+					"before": "[auAUауАУ]"
+				},
+				{
+					"from": "й",
+					"to": "j-",
+					"before": "[auау]"
+				},
+				{
+					"from": "Ш",
+					"to": "Š-",
+					"before": "[ČčЧч]"
+				},
+				{
+					"from": "ш",
+					"to": "š-",
+					"before": "[čч]"
+				}
+			]
+		},
+		{
+			"description": "Rest of characters",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "а",
+					"to": "a"
+				},
+				{
+					"from": "А",
+					"to": "A"
+				},
+				{
+					"from": "б",
+					"to": "b"
+				},
+				{
+					"from": "Б",
+					"to": "B"
+				},
+				{
+					"from": "в",
+					"to": "v"
+				},
+				{
+					"from": "В",
+					"to": "V"
+				},
+				{
+					"from": "г",
+					"to": "g"
+				},
+				{
+					"from": "Г",
+					"to": "G"
+				},
+				{
+					"from": "д",
+					"to": "d"
+				},
+				{
+					"from": "Д",
+					"to": "D"
+				},
+				{
+					"from": "е",
+					"to": "e"
+				},
+				{
+					"from": "Е",
+					"to": "E"
+				},
+				{
+					"from": "ё",
+					"to": "ë"
+				},
+				{
+					"from": "Ё",
+					"to": "Ë"
+				},
+				{
+					"from": "ж",
+					"to": "ž"
+				},
+				{
+					"from": "Ж",
+					"to": "Ž"
+				},
+				{
+					"from": "з",
+					"to": "z"
+				},
+				{
+					"from": "З",
+					"to": "Z"
+				},
+				{
+					"from": "и",
+					"to": "i"
+				},
+				{
+					"from": "И",
+					"to": "I"
+				},
+				{
+					"from": "і",
+					"to": "i"
+				},
+				{
+					"from": "І",
+					"to": "I"
+				},
+				{
+					"from": "й",
+					"to": "j"
+				},
+				{
+					"from": "Й",
+					"to": "J"
+				},
+				{
+					"from": "к",
+					"to": "k"
+				},
+				{
+					"from": "К",
+					"to": "K"
+				},
+				{
+					"from": "л",
+					"to": "l"
+				},
+				{
+					"from": "Л",
+					"to": "L"
+				},
+				{
+					"from": "м",
+					"to": "m"
+				},
+				{
+					"from": "М",
+					"to": "M"
+				},
+				{
+					"from": "н",
+					"to": "n"
+				},
+				{
+					"from": "Н",
+					"to": "N"
+				},
+				{
+					"from": "о",
+					"to": "o"
+				},
+				{
+					"from": "О",
+					"to": "O"
+				},
+				{
+					"from": "п",
+					"to": "p"
+				},
+				{
+					"from": "П",
+					"to": "P"
+				},
+				{
+					"from": "р",
+					"to": "r"
+				},
+				{
+					"from": "Р",
+					"to": "R"
+				},
+				{
+					"from": "с",
+					"to": "s"
+				},
+				{
+					"from": "С",
+					"to": "S"
+				},
+				{
+					"from": "т",
+					"to": "t"
+				},
+				{
+					"from": "Т",
+					"to": "T"
+				},
+				{
+					"from": "у",
+					"to": "u"
+				},
+				{
+					"from": "У",
+					"to": "U"
+				},
+				{
+					"from": "ф",
+					"to": "f"
+				},
+				{
+					"from": "Ф",
+					"to": "F"
+				},
+				{
+					"from": "ц",
+					"to": "c"
+				},
+				{
+					"from": "Ц",
+					"to": "C"
+				},
+				{
+					"from": "ч",
+					"to": "č"
+				},
+				{
+					"from": "Ч",
+					"to": "Č"
+				},
+				{
+					"from": "ш",
+					"to": "š"
+				},
+				{
+					"from": "Ш",
+					"to": "Š"
+				},
+				{
+					"from": "ы",
+					"to": "y"
+				},
+				{
+					"from": "Ы",
+					"to": "Y"
+				},
+				{
+					"from": "Ь",
+					"to": "'",
+					"after": "\\p{IsUpper}"
+				},
+				{
+					"from": "ь",
+					"to": "'"
+				},
+				{
+					"from": "ѣ",
+					"to": "ě"
+				},
+				{
+					"from": "Ѣ",
+					"to": "Ě"
+				},
+				{
+					"from": "э",
+					"to": "ė"
+				},
+				{
+					"from": "Э",
+					"to": "Ė"
+				},
+				{
+					"from": "ѳ",
+					"to": "ḟ"
+				},
+				{
+					"from": "Ѳ",
+					"to": "Ḟ"
+				},
+				{
+					"from": "ѵ",
+					"to": "ẏ"
+				},
+				{
+					"from": "Ѵ",
+					"to": "Ẏ"
+				}
+			]
+		}
+	]
+}

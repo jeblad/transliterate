@@ -1,0 +1,31 @@
+{
+	"name": "ISO 8859-16 RON",
+	"desc": "Romanian with diacritics",
+	"forward": "yes",
+	"reverse": "yes",
+	"window": 1,
+	"sets": [
+		{
+			"description": "Characters",
+			"weight": 400,
+			"rules": [
+				{
+					"from": "Ş",
+					"to": "Ș"
+				},
+				{
+					"from": "ş",
+					"to": "ș"
+				},
+				{
+					"from": "Ţ",
+					"to": "Ț"
+				},
+				{
+					"from": "ţ",
+					"to": "ț"
+				}
+			]
+		}
+	]
+}

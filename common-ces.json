@@ -1,0 +1,143 @@
+{
+	"name": "Common CES",
+	"desc": "Czech without diacritics",
+	"forward": "yes",
+	"reverse": "no",
+	"window": 2,
+	"sets": [
+		{
+			"description": "Characters",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "Á",
+					"to": "A"
+				},
+				{
+					"from": "á",
+					"to": "a"
+				},
+				{
+					"from": "Č",
+					"to": "C"
+				},
+				{
+					"from": "č",
+					"to": "c"
+				},
+				{
+					"from": "Ď",
+					"to": "D"
+				},
+				{
+					"from": "ď",
+					"to": "d"
+				},
+				{
+					"from": "ď",
+					"to": "d"
+				},
+				{
+					"from": "É",
+					"to": "E"
+				},
+				{
+					"from": "é",
+					"to": "e"
+				},
+				{
+					"from": "Ě",
+					"to": "E"
+				},
+				{
+					"from": "ě",
+					"to": "e"
+				},
+				{
+					"from": "Í",
+					"to": "I"
+				},
+				{
+					"from": "í",
+					"to": "i"
+				},
+				{
+					"from": "Ň",
+					"to": "N"
+				},
+				{
+					"from": "ň",
+					"to": "n"
+				},
+				{
+					"from": "Ó",
+					"to": "O"
+				},
+				{
+					"from": "ó",
+					"to": "o"
+				},
+				{
+					"from": "Ř",
+					"to": "R"
+				},
+				{
+					"from": "ř",
+					"to": "r"
+				},
+				{
+					"from": "Š",
+					"to": "S"
+				},
+				{
+					"from": "š",
+					"to": "s"
+				},
+				{
+					"from": "Ť",
+					"to": "T"
+				},
+				{
+					"from": "ť",
+					"to": "t"
+				},
+				{
+					"from": "ť;",
+					"to": "t"
+				},
+				{
+					"from": "Ú",
+					"to": "U"
+				},
+				{
+					"from": "ú",
+					"to": "u"
+				},
+				{
+					"from": "Ů",
+					"to": "U"
+				},
+				{
+					"from": "ů",
+					"to": "u"
+				},
+				{
+					"from": "Ý",
+					"to": "Y"
+				},
+				{
+					"from": "ý",
+					"to": "y"
+				},
+				{
+					"from": "Ž",
+					"to": "Z"
+				},
+				{
+					"from": "ž",
+					"to": "z"
+				}
+			]
+		}
+	]
+}

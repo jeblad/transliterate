@@ -1,0 +1,225 @@
+{
+	"name": "Common ARA",
+	"desc": "Arabic to Latin",
+	"forward": "yes",
+	"reverse": "no",
+	"window": 1,
+	"sets": [
+		{
+			"description": "Section 1",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "ث",
+					"to": "th"
+				},
+				{
+					"from": "خ",
+					"to": "kh"
+				},
+				{
+					"from": "ش",
+					"to": "sh"
+				},
+				{
+					"from": "غ",
+					"to": "gh"
+				},
+				{
+					"from": "ع",
+					"to": "'e"
+				},
+				{
+					"from": "ئ",
+					"to": "'e"
+				},
+				{
+					"from": "ؤ",
+					"to": "'e"
+				}
+			]
+		},
+		{
+			"description": "Section 2",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "ا",
+					"to": "a"
+				},
+				{
+					"from": "أ",
+					"to": "a"
+				},
+				{
+					"from": "آ",
+					"to": "a"
+				},
+				{
+					"from": "ى",
+					"to": "a"
+				},
+				{
+					"from": "إ",
+					"to": "e"
+				},
+				{
+					"from": "ب",
+					"to": "b"
+				},
+				{
+					"from": "ت",
+					"to": "t"
+				},
+				{
+					"from": "ج",
+					"to": "j"
+				},
+				{
+					"from": "ح",
+					"to": "h"
+				},
+				{
+					"from": "د",
+					"to": "d"
+				},
+				{
+					"from": "ذ",
+					"to": "d"
+				},
+				{
+					"from": "ض",
+					"to": "d"
+				},
+				{
+					"from": "ر",
+					"to": "r"
+				},
+				{
+					"from": "ز",
+					"to": "z"
+				},
+				{
+					"from": "ظ",
+					"to": "z"
+				},
+				{
+					"from": "س",
+					"to": "s"
+				},
+				{
+					"from": "ص",
+					"to": "s"
+				},
+				{
+					"from": "ط",
+					"to": "t"
+				},
+				{
+					"from": "ف",
+					"to": "f"
+				},
+				{
+					"from": "ق",
+					"to": "q"
+				},
+				{
+					"from": "ك",
+					"to": "k"
+				},
+				{
+					"from": "ل",
+					"to": "l"
+				},
+				{
+					"from": "م",
+					"to": "m"
+				},
+				{
+					"from": "ن",
+					"to": "n"
+				},
+				{
+					"from": "ه",
+					"to": "h"
+				},
+				{
+					"from": "ة",
+					"to": "h"
+				},
+				{
+					"from": "و",
+					"to": "w"
+				},
+				{
+					"from": "ي",
+					"to": "y"
+				},
+				{
+					"from": "ء",
+					"to": "'"
+				},
+				{
+					"from": "؟",
+					"to": "?"
+				},
+				{
+					"from": "،",
+					"to": ","
+				}
+			]
+		},
+		{
+			"description": "Section 3",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "ـ",
+					"to": ""
+				},
+				{
+					"from": "ً",
+					"to": ""
+				},
+				{
+					"from": "ٌ",
+					"to": ""
+				},
+				{
+					"from": "ٍ",
+					"to": ""
+				},
+				{
+					"from": "َ",
+					"to": ""
+				},
+				{
+					"from": "ُ",
+					"to": ""
+				},
+				{
+					"from": "ِ",
+					"to": ""
+				},
+				{
+					"from": "ّ",
+					"to": ""
+				},
+				{
+					"from": "ْ",
+					"to": ""
+				}
+			]
+		},
+		{
+			"description": "Special",
+			"weight": 200,
+			"rules": [
+				{
+					"from": "\u200F",
+					"to": ""
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,500 @@
+{
+	"name": "DIN 31634:1982",
+	"description": "Greek to Latin",
+	"forward": "yes",
+	"reverse": "no",
+	"window": 2,
+	"sets": [
+		{
+			"description": "Greek digraphs",
+			"weight": 700,
+			"rules": [
+				{
+					"from": "ΑΥ",
+					"to": "AU"
+				},
+				{
+					"from": "αυ",
+					"to": "au"
+				},
+				{
+					"from": "Αυ",
+					"to": "Au"
+				},
+				{
+					"from": "ΑΫ",
+					"to": "AŸ"
+				},
+				{
+					"from": "αϋ",
+					"to": "aÿ"
+				},
+				{
+					"from": "ΓΓ",
+					"to": "NG"
+				},
+				{
+					"from": "γγ",
+					"to": "ng"
+				},
+				{
+					"from": "Γγ",
+					"to": "Ng"
+				},
+				{
+					"from": "ΓΚ",
+					"to": "GK",
+					"after": "\\b"
+				},
+				{
+					"from": "γκ",
+					"to": "gk",
+					"after": "\\b"
+				},
+				{
+					"from": "Γκ",
+					"to": "Gk",
+					"after": "\\b"
+				},
+				{
+					"from": "ΓΚ",
+					"to": "NK"
+				},
+				{
+					"from": "γκ",
+					"to": "nk"
+				},
+				{
+					"from": "Γκ",
+					"to": "Nk"
+				},
+				{
+					"from": "ΓΞ",
+					"to": "NX"
+				},
+				{
+					"from": "γξ",
+					"to": "nx"
+				},
+				{
+					"from": "Γξ",
+					"to": "Nx"
+				},
+				{
+					"from": "ΓΧ",
+					"to": "nch"
+				},
+				{
+					"from": "γχ",
+					"to": "nch"
+				},
+				{
+					"from": "Γχ",
+					"to": "Nch"
+				},
+				{
+					"from": "ΕΥ",
+					"to": "EU"
+				},
+				{
+					"from": "ευ",
+					"to": "eu"
+				},
+				{
+					"from": "Ευ",
+					"to": "Eu"
+				},
+				{
+					"from": "ΗΥ",
+					"to": "ĒU"
+				},
+				{
+					"from": "ηυ",
+					"to": "ēu"
+				},
+				{
+					"from": "Ηυ",
+					"to": "Ēu"
+				},
+				{
+					"from": "ΟΥ",
+					"to": "U"
+				},
+				{
+					"from": "ου",
+					"to": "u"
+				},
+				{
+					"from": "Ου",
+					"to": "U"
+				},
+				{
+					"from": "ΟΫ",
+					"to": "OŸ"
+				},
+				{
+					"from": "οϋ",
+					"to": "oÿ"
+				},
+				{
+					"from": "Α",
+					"to": "A"
+				},
+				{
+					"from": "α",
+					"to": "a"
+				},
+				{
+					"from": "Β",
+					"to": "B"
+				},
+				{
+					"from": "β",
+					"to": "b"
+				},
+				{
+					"from": "Γ",
+					"to": "G"
+				},
+				{
+					"from": "γ",
+					"to": "g"
+				},
+				{
+					"from": "Δ",
+					"to": "D"
+				},
+				{
+					"from": "δ",
+					"to": "d"
+				},
+				{
+					"from": "Ε",
+					"to": "E"
+				},
+				{
+					"from": "ε",
+					"to": "e"
+				},
+				{
+					"from": "Ζ",
+					"to": "Z"
+				},
+				{
+					"from": "ζ",
+					"to": "z"
+				},
+				{
+					"from": "Η",
+					"to": "Ē"
+				},
+				{
+					"from": "η",
+					"to": "ē"
+				},
+				{
+					"from": "Θ",
+					"to": "Th"
+				},
+				{
+					"from": "θ",
+					"to": "th"
+				},
+				{
+					"from": "ϑ",
+					"to": "th"
+				},
+				{
+					"from": "Ι",
+					"to": "I"
+				},
+				{
+					"from": "ι",
+					"to": "i"
+				},
+				{
+					"from": "Κ",
+					"to": "K"
+				},
+				{
+					"from": "κ",
+					"to": "k"
+				},
+				{
+					"from": "Λ",
+					"to": "L"
+				},
+				{
+					"from": "λ",
+					"to": "l"
+				},
+				{
+					"from": "Μ",
+					"to": "M"
+				},
+				{
+					"from": "μ",
+					"to": "m"
+				},
+				{
+					"from": "Ν",
+					"to": "N"
+				},
+				{
+					"from": "ν",
+					"to": "n"
+				},
+				{
+					"from": "Ξ",
+					"to": "X"
+				},
+				{
+					"from": "ξ",
+					"to": "x"
+				},
+				{
+					"from": "Ο",
+					"to": "O"
+				},
+				{
+					"from": "ο",
+					"to": "o"
+				},
+				{
+					"from": "Π",
+					"to": "P"
+				},
+				{
+					"from": "π",
+					"to": "p"
+				},
+				{
+					"from": "Ρ",
+					"to": "R"
+				},
+				{
+					"from": "ρ",
+					"to": "r"
+				},
+				{
+					"from": "Σ",
+					"to": "S"
+				},
+				{
+					"from": "σ",
+					"to": "s"
+				},
+				{
+					"from": "ς",
+					"to": "s",
+					"before": "\\b"
+				},
+				{
+					"from": "Τ",
+					"to": "T"
+				},
+				{
+					"from": "τ",
+					"to": "t"
+				},
+				{
+					"from": "Υ",
+					"to": "Y"
+				},
+				{
+					"from": "υ",
+					"to": "y"
+				},
+				{
+					"from": "Φ",
+					"to": "Ph"
+				},
+				{
+					"from": "φ",
+					"to": "ph"
+				},
+				{
+					"from": "ϕ",
+					"to": "ph"
+				},
+				{
+					"from": "Χ",
+					"to": "Ch"
+				},
+				{
+					"from": "χ",
+					"to": "ch"
+				},
+				{
+					"from": "Ψ",
+					"to": "Ps"
+				},
+				{
+					"from": "ψ",
+					"to": "ps"
+				},
+				{
+					"from": "Ω",
+					"to": "Ō"
+				},
+				{
+					"from": "ω",
+					"to": "ō"
+				}
+			]
+		},
+		{
+			"description": "Accented characters",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "Ά",
+					"to": "A"
+				},
+				{
+					"from": "ά",
+					"to": "a"
+				},
+				{
+					"from": "Έ",
+					"to": "E"
+				},
+				{
+					"from": "έ",
+					"to": "e"
+				},
+				{
+					"from": "Ή",
+					"to": "Ē"
+				},
+				{
+					"from": "ή",
+					"to": "ē"
+				},
+				{
+					"from": "Ί",
+					"to": "I"
+				},
+				{
+					"from": "ί",
+					"to": "i"
+				},
+				{
+					"from": "Ϊ",
+					"to": "I"
+				},
+				{
+					"from": "ϊ",
+					"to": "i"
+				},
+				{
+					"from": "ΐ",
+					"to": "i"
+				},
+				{
+					"from": "Ό",
+					"to": "O"
+				},
+				{
+					"from": "ό",
+					"to": "o"
+				},
+				{
+					"from": "Ύ",
+					"to": "Y"
+				},
+				{
+					"from": "ύ",
+					"to": "y"
+				},
+				{
+					"from": "Ϋ",
+					"to": "Y"
+				},
+				{
+					"from": "ϋ",
+					"to": "y"
+				},
+				{
+					"from": "ΰ",
+					"to": "y"
+				},
+				{
+					"from": "Ώ",
+					"to": "Ō"
+				},
+				{
+					"from": "ώ",
+					"to": "ō"
+				}
+			]
+		},
+		{
+			"description": "Punctation marks",
+			"weight": 300,
+			"rules": [
+				{
+					"description": "GREEK QUESTION MARK, EROTIMATIKO",
+					"from": "\u037E",
+					"to": "?"
+				},
+				{
+					"description": "preferred for EROTIMATIKO",
+					"from": ";",
+					"to": "?"
+				},
+				{
+					"description": "MIDDLE DOT, Greek ano teleia",
+					"from": "·",
+					"to": ";"
+				}
+			]
+		},
+		{
+			"description": "Diacritic marks",
+			"weight": 200,
+			"rules": [
+				{
+					"description": "GREEK TONOS",
+					"from": "\u0384",
+					"to": ""
+				},
+				{
+					"description": "GREEK DIALYTIKA TONOS",
+					"from": "\u0385",
+					"to": ""
+				},
+				{
+					"description": "COMBINING GREEK PERISPOMENI",
+					"from": "\u0342",
+					"to": ""
+				},
+				{
+					"description": "COMBINING GREEK KORONIS",
+					"from": "\u0343",
+					"to": ""
+				},
+				{
+					"description": "COMBINING COMMA ABOVE",
+					"from": "\u0313",
+					"to": ""
+				},
+				{
+					"description": "COMBINING REVERSED COMMA ABOVE",
+					"from": "\u0314",
+					"to": ""
+				},
+				{
+					"description": "COMBINING GREEK YPOGEGRAMMENI",
+					"from": "\u0345",
+					"to": ""
+				},
+				{
+					"description": "GREEK YPOGEGRAMMENI",
+					"from": "\u0345",
+					"to": ""
+				}
+			]
+		}
+	]
+}

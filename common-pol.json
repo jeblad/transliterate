@@ -1,0 +1,87 @@
+{
+	"name": "Common POL",
+	"desc": "Polish with accents",
+	"forward": "yes",
+	"reverse": "no",
+	"window": 1,
+	"sets": [
+		{
+			"description": "Characters",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "Ą",
+					"to": "A"
+				},
+				{
+					"from": "ą",
+					"to": "a"
+				},
+				{
+					"from": "Ć",
+					"to": "C"
+				},
+				{
+					"from": "ć",
+					"to": "c"
+				},
+				{
+					"from": "Ę",
+					"to": "E"
+				},
+				{
+					"from": "ę",
+					"to": "e"
+				},
+				{
+					"from": "Ł",
+					"to": "L"
+				},
+				{
+					"from": "ł",
+					"to": "l"
+				},
+				{
+					"from": "Ń",
+					"to": "N"
+				},
+				{
+					"from": "ń",
+					"to": "n"
+				},
+				{
+					"from": "Ó",
+					"to": "O"
+				},
+				{
+					"from": "ó",
+					"to": "o"
+				},
+				{
+					"from": "Ś",
+					"to": "S"
+				},
+				{
+					"from": "ś",
+					"to": "s"
+				},
+				{
+					"from": "Ź",
+					"to": "Z"
+				},
+				{
+					"from": "ź",
+					"to": "z"
+				},
+				{
+					"from": "Ż",
+					"to": "Z"
+				},
+				{
+					"from": "ż",
+					"to": "z"
+				}
+			]
+		}
+	]
+}

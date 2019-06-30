@@ -1,0 +1,395 @@
+{
+	"name": "Greeklish",
+	"desc": "Phonetic Greek to Latin",
+	"forward": "yes",
+	"reverse": "no",
+	"window": 2,
+	"sets": [
+		{
+			"description": "Digraphs",
+			"weight": 700,
+			"rules": [
+				{
+					"from": "ει",
+					"to": "i"
+				},
+				{
+					"from": "έι",
+					"to": "i"
+				},
+				{
+					"from": "εί",
+					"to": "i"
+				},
+				{
+					"from": "ευ",
+					"to": "ef"
+				},
+				{
+					"from": "έυ",
+					"to": "ef"
+				},
+				{
+					"from": "εύ",
+					"to": "ef"
+				},
+				{
+					"from": "ου",
+					"to": "u"
+				},
+				{
+					"from": "ού",
+					"to": "u"
+				},
+				{
+					"from": "όυ",
+					"to": "u"
+				}
+			]
+		},
+		{
+			"description": "Rest of characters",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "Α",
+					"to": "A"
+				},
+				{
+					"from": "α",
+					"to": "a"
+				},
+				{
+					"from": "Ά",
+					"to": "A"
+				},
+				{
+					"from": "ά",
+					"to": "a"
+				},
+				{
+					"from": "Β",
+					"to": "V"
+				},
+				{
+					"from": "β",
+					"to": "v"
+				},
+				{
+					"from": "Γ",
+					"to": "Y"
+				},
+				{
+					"from": "γ",
+					"to": "y"
+				},
+				{
+					"from": "Δ",
+					"to": "D"
+				},
+				{
+					"from": "δ",
+					"to": "d"
+				},
+				{
+					"from": "Ε",
+					"to": "E"
+				},
+				{
+					"from": "ε",
+					"to": "e"
+				},
+				{
+					"from": "Έ",
+					"to": "E"
+				},
+				{
+					"from": "έ",
+					"to": "e"
+				},
+				{
+					"from": "Ζ",
+					"to": "Z"
+				},
+				{
+					"from": "ζ",
+					"to": "z"
+				},
+				{
+					"from": "Η",
+					"to": "I"
+				},
+				{
+					"from": "η",
+					"to": "i"
+				},
+				{
+					"from": "Ή",
+					"to": "I"
+				},
+				{
+					"from": "ή",
+					"to": "i"
+				},
+				{
+					"from": "Θ",
+					"to": "Th"
+				},
+				{
+					"from": "θ",
+					"to": "th"
+				},
+				{
+					"from": "Ι",
+					"to": "I"
+				},
+				{
+					"from": "ι",
+					"to": "i"
+				},
+				{
+					"from": "Ί",
+					"to": "I"
+				},
+				{
+					"from": "ί",
+					"to": "i"
+				},
+				{
+					"from": "Ϊ",
+					"to": "I"
+				},
+				{
+					"from": "ϊ",
+					"to": "i"
+				},
+				{
+					"from": "ΐ",
+					"to": "i"
+				},
+				{
+					"from": "Κ",
+					"to": "K"
+				},
+				{
+					"from": "κ",
+					"to": "k"
+				},
+				{
+					"from": "Λ",
+					"to": "L"
+				},
+				{
+					"from": "λ",
+					"to": "l"
+				},
+				{
+					"from": "Μ",
+					"to": "M"
+				},
+				{
+					"from": "μ",
+					"to": "m"
+				},
+				{
+					"from": "Ν",
+					"to": "N"
+				},
+				{
+					"from": "ν",
+					"to": "n"
+				},
+				{
+					"from": "Ξ",
+					"to": "X"
+				},
+				{
+					"from": "ξ",
+					"to": "x"
+				},
+				{
+					"from": "Ο",
+					"to": "O"
+				},
+				{
+					"from": "ο",
+					"to": "o"
+				},
+				{
+					"from": "Ό",
+					"to": "O"
+				},
+				{
+					"from": "ό",
+					"to": "o"
+				},
+				{
+					"from": "Π",
+					"to": "P"
+				},
+				{
+					"from": "π",
+					"to": "p"
+				},
+				{
+					"from": "Ρ",
+					"to": "R"
+				},
+				{
+					"from": "ρ",
+					"to": "r"
+				},
+				{
+					"from": "Σ",
+					"to": "S"
+				},
+				{
+					"from": "σ",
+					"to": "s"
+				},
+				{
+					"from": "Τ",
+					"to": "T"
+				},
+				{
+					"from": "τ",
+					"to": "t"
+				},
+				{
+					"from": "Υ",
+					"to": "I"
+				},
+				{
+					"from": "υ",
+					"to": "i"
+				},
+				{
+					"from": "Ύ",
+					"to": "I"
+				},
+				{
+					"from": "ύ",
+					"to": "i"
+				},
+				{
+					"from": "Ϋ",
+					"to": "I"
+				},
+				{
+					"from": "ϋ",
+					"to": "i"
+				},
+				{
+					"from": "ΰ",
+					"to": "i"
+				},
+				{
+					"from": "Φ",
+					"to": "F"
+				},
+				{
+					"from": "φ",
+					"to": "f"
+				},
+				{
+					"from": "Χ",
+					"to": "H"
+				},
+				{
+					"from": "χ",
+					"to": "h"
+				},
+				{
+					"from": "Ψ",
+					"to": "Ps"
+				},
+				{
+					"from": "ψ",
+					"to": "ps"
+				},
+				{
+					"from": "Ω",
+					"to": "O"
+				},
+				{
+					"from": "ω",
+					"to": "o"
+				},
+				{
+					"from": "Ώ",
+					"to": "O"
+				},
+				{
+					"from": "ώ",
+					"to": "o"
+				},
+				{
+					"from": "ς",
+					"to": "s"
+				}
+			]
+		},
+		{
+			"description": "Punctation marks",
+			"weight": 300,
+			"rules": [
+				{
+					"from": ";",
+					"to": "?",
+					"after": "\\b"
+				},
+				{
+					"from": ";",
+					"to": "?",
+					"after": "\\b"
+				},
+				{
+					"from": "·",
+					"to": ";"
+				},
+				{
+					"from": "‿",
+					"to": "-"
+				}
+			]
+		},
+		{
+			"description": "Diacritic marks",
+			"weight": 200,
+			"rules": [
+				{
+					"from": "΄",
+					"to": ""
+				},
+				{
+					"from": "΅",
+					"to": ""
+				},
+				{
+					"from": "͂",
+					"to": ""
+				},
+				{
+					"from": "̓",
+					"to": ""
+				},
+				{
+					"from": "̓",
+					"to": ""
+				},
+				{
+					"from": "̔",
+					"to": ""
+				},
+				{
+					"from": "ͅ",
+					"to": ""
+				},
+				{
+					"from": "ͅ",
+					"to": ""
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"name": "Common RON",
+	"desc": "Romanian without diacritics",
+	"forward": "yes",
+	"reverse": "no",
+	"window": 1,
+	"sets": [
+		{
+			"description": "Characters",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "Ă",
+					"to": "A"
+				},
+				{
+					"from": "ă",
+					"to": "a"
+				},
+				{
+					"from": "Â",
+					"to": "A"
+				},
+				{
+					"from": "â",
+					"to": "a"
+				},
+				{
+					"from": "Î",
+					"to": "I"
+				},
+				{
+					"from": "î",
+					"to": "i"
+				},
+				{
+					"from": "Ș",
+					"to": "S"
+				},
+				{
+					"from": "ș",
+					"to": "s"
+				},
+				{
+					"from": "Ş",
+					"to": "S"
+				},
+				{
+					"from": "ş",
+					"to": "s"
+				},
+				{
+					"from": "Ț",
+					"to": "T"
+				},
+				{
+					"from": "ț",
+					"to": "t"
+				},
+				{
+					"from": "Ţ",
+					"to": "T"
+				},
+				{
+					"from": "ţ",
+					"to": "t"
+				}
+			]
+		}
+	]
+}

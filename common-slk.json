@@ -1,0 +1,191 @@
+{
+	"name": "Common SLK",
+	"desc": "Slovak without diacritics",
+	"forward": "yes",
+	"reverse": "no",
+	"window": 2,
+	"sets": [
+		{
+			"description": "Characters",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "Á",
+					"to": "A"
+				},
+				{
+					"from": "á",
+					"to": "a"
+				},
+				{
+					"from": "Ä",
+					"to": "A"
+				},
+				{
+					"from": "ä",
+					"to": "a"
+				},
+				{
+					"from": "Č",
+					"to": "C"
+				},
+				{
+					"from": "č",
+					"to": "c"
+				},
+				{
+					"from": "Ď",
+					"to": "D"
+				},
+				{
+					"from": "ď",
+					"to": "d"
+				},
+				{
+					"from": "ď",
+					"to": "d"
+				},
+				{
+					"from": "É",
+					"to": "E"
+				},
+				{
+					"from": "é",
+					"to": "e"
+				},
+				{
+					"from": "Í",
+					"to": "I"
+				},
+				{
+					"from": "í",
+					"to": "i"
+				},
+				{
+					"from": "Ĺ",
+					"to": "L"
+				},
+				{
+					"from": "ĺ",
+					"to": "l"
+				},
+				{
+					"from": "Ľ",
+					"to": "L"
+				},
+				{
+					"from": "ľ",
+					"to": "l"
+				},
+				{
+					"from": "Ľ",
+					"to": "L"
+				},
+				{
+					"from": "ľ",
+					"to": "l"
+				},
+				{
+					"from": "Ň",
+					"to": "N"
+				},
+				{
+					"from": "ň",
+					"to": "n"
+				},
+				{
+					"from": "Ó",
+					"to": "O"
+				},
+				{
+					"from": "ó",
+					"to": "o"
+				},
+				{
+					"from": "Ŕ",
+					"to": "R"
+				},
+				{
+					"from": "ŕ",
+					"to": "r"
+				},
+				{
+					"from": "Š",
+					"to": "S"
+				},
+				{
+					"from": "š",
+					"to": "s"
+				},
+				{
+					"from": "Ť",
+					"to": "T"
+				},
+				{
+					"from": "ť",
+					"to": "t"
+				},
+				{
+					"from": "ť",
+					"to": "t"
+				},
+				{
+					"from": "Ú",
+					"to": "U"
+				},
+				{
+					"from": "ú",
+					"to": "u"
+				},
+				{
+					"from": "Ý",
+					"to": "Y"
+				},
+				{
+					"from": "ý",
+					"to": "y"
+				},
+				{
+					"from": "Ž",
+					"to": "Z"
+				},
+				{
+					"from": "ž",
+					"to": "z"
+				},
+				{
+					"from": "Ô",
+					"to": "O"
+				},
+				{
+					"from": "ô",
+					"to": "o"
+				},
+				{
+					"from": "Ǳ",
+					"to": "DZ"
+				},
+				{
+					"from": "ǲ",
+					"to": "Dz"
+				},
+				{
+					"from": "ǳ",
+					"to": "dz"
+				},
+				{
+					"from": "Ǆ",
+					"to": "DZ"
+				},
+				{
+					"from": "ǅ",
+					"to": "Dz"
+				},
+				{
+					"from": "ǆ",
+					"to": "dz"
+				}
+			]
+		}
+	]
+}

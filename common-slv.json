@@ -1,0 +1,39 @@
+{
+	"name": "Common SLV",
+	"desc": "Slovenian without diacritics",
+	"forward": "yes",
+	"reverse": "no",
+	"window": 2,
+	"sets": [
+		{
+			"description": "Characters",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "Č",
+					"to": "C"
+				},
+				{
+					"from": "č",
+					"to": "c"
+				},
+				{
+					"from": "Š",
+					"to": "S"
+				},
+				{
+					"from": "š",
+					"to": "s"
+				},
+				{
+					"from": "Ž",
+					"to": "Z"
+				},
+				{
+					"from": "ž",
+					"to": "z"
+				}
+			]
+		}
+	]
+}

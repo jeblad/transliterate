@@ -1,0 +1,48 @@
+{
+	"name": "Common DEU",
+	"desc": "German with umlauts",
+	"forward": "yes",
+	"reverse": "no",
+	"window": 1,
+	"sets": [
+		{
+			"description": "Characters",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "Ä",
+					"to": "Ae"
+				},
+				{
+					"from": "ä",
+					"to": "ae"
+				},
+				{
+					"from": "Ö",
+					"to": "Oe"
+				},
+				{
+					"from": "ö",
+					"to": "oe"
+				},
+				{
+					"from": "Ü",
+					"to": "Ue"
+				},
+				{
+					"from": "ü",
+					"to": "ue"
+				},
+				{
+					"from": "ß",
+					"to": "SS",
+					"after": "\\p{IsUpper}"
+				},
+				{
+					"from": "ß",
+					"to": "ss"
+				}
+			]
+		}
+	]
+}

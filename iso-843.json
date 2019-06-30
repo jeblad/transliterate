@@ -1,0 +1,385 @@
+{
+	"name": "ISO 843:1997",
+	"desc": "Greek to Latin",
+	"forward": "yes",
+	"reverse": "no",
+	"window": 1,
+	"sets": [
+		{
+			"description": "Characters without accent",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "Α",
+					"to": "A"
+				},
+				{
+					"from": "α",
+					"to": "a"
+				},
+				{
+					"from": "Β",
+					"to": "V"
+				},
+				{
+					"from": "β",
+					"to": "v"
+				},
+				{
+					"from": "Γ",
+					"to": "G"
+				},
+				{
+					"from": "γ",
+					"to": "g"
+				},
+				{
+					"from": "Δ",
+					"to": "D"
+				},
+				{
+					"from": "δ",
+					"to": "d"
+				},
+				{
+					"from": "Ε",
+					"to": "E"
+				},
+				{
+					"from": "ε",
+					"to": "e"
+				},
+				{
+					"from": "Ζ",
+					"to": "Z"
+				},
+				{
+					"from": "ζ",
+					"to": "z"
+				},
+				{
+					"from": "Η",
+					"to": "Ī"
+				},
+				{
+					"from": "η",
+					"to": "ī"
+				},
+				{
+					"from": "Θ",
+					"to": "Th"
+				},
+				{
+					"from": "θ",
+					"to": "th"
+				},
+				{
+					"from": "Ι",
+					"to": "I"
+				},
+				{
+					"from": "ι",
+					"to": "i"
+				},
+				{
+					"from": "Κ",
+					"to": "K"
+				},
+				{
+					"from": "κ",
+					"to": "k"
+				},
+				{
+					"from": "Λ",
+					"to": "L"
+				},
+				{
+					"from": "λ",
+					"to": "l"
+				},
+				{
+					"from": "Μ",
+					"to": "M"
+				},
+				{
+					"from": "μ",
+					"to": "m"
+				},
+				{
+					"from": "Ν",
+					"to": "N"
+				},
+				{
+					"from": "ν",
+					"to": "n"
+				},
+				{
+					"from": "Ξ",
+					"to": "X"
+				},
+				{
+					"from": "ξ",
+					"to": "x"
+				},
+				{
+					"from": "Ο",
+					"to": "O"
+				},
+				{
+					"from": "ο",
+					"to": "o"
+				},
+				{
+					"from": "Π",
+					"to": "P"
+				},
+				{
+					"from": "π",
+					"to": "p"
+				},
+				{
+					"from": "Ρ",
+					"to": "R"
+				},
+				{
+					"from": "ρ",
+					"to": "r"
+				},
+				{
+					"from": "Σ",
+					"to": "S"
+				},
+				{
+					"from": "ς",
+					"to": "s"
+				},
+				{
+					"from": "σ",
+					"to": "s"
+				},
+				{
+					"from": "Τ",
+					"to": "T"
+				},
+				{
+					"from": "τ",
+					"to": "t"
+				},
+				{
+					"from": "Υ",
+					"to": "Y"
+				},
+				{
+					"from": "υ",
+					"to": "y"
+				},
+				{
+					"from": "Φ",
+					"to": "F"
+				},
+				{
+					"from": "φ",
+					"to": "f"
+				},
+				{
+					"from": "Χ",
+					"to": "Ch"
+				},
+				{
+					"from": "χ",
+					"to": "ch"
+				},
+				{
+					"from": "Ψ",
+					"to": "Ps"
+				},
+				{
+					"from": "ψ",
+					"to": "ps"
+				},
+				{
+					"from": "Ω",
+					"to": "Ō"
+				},
+				{
+					"from": "ω",
+					"to": "ō"
+				}
+			]
+		},
+		{
+			"description": "Archaic characters",
+			"weight": 400,
+			"rules": [
+				{
+					"from": "Ϛ",
+					"to": "S"
+				},
+				{
+					"from": "ϛ",
+					"to": "s"
+				},
+				{
+					"from": "Ϝ",
+					"to": "W"
+				},
+				{
+					"from": "ϝ",
+					"to": "f"
+				},
+				{
+					"from": "ϳ",
+					"to": "j"
+				}
+			]
+		},
+		{
+			"description": "Diacritic marks",
+			"weight": 200,
+			"rules": [
+				{
+					"from": "΄",
+					"to": "´"
+				},
+				{
+					"from": "΅",
+					"to": "΅"
+				},
+				{
+					"from": "͂",
+					"to": "̂"
+				},
+				{
+					"from": "̓",
+					"to": "ʼ"
+				},
+				{
+					"from": "̓",
+					"to": "ʼ"
+				},
+				{
+					"from": "̔",
+					"to": "h"
+				},
+				{
+					"from": "ͅ",
+					"to": "̧"
+				},
+				{
+					"from": "ͅ",
+					"to": "̧"
+				}
+			]
+		},
+		{
+			"description": "Characters with accent",
+			"weight": 500,
+			"rules": [
+				{
+					"from": "Ά",
+					"to": "Á"
+				},
+				{
+					"from": "ά",
+					"to": "á"
+				},
+				{
+					"from": "Έ",
+					"to": "É"
+				},
+				{
+					"from": "έ",
+					"to": "é"
+				},
+				{
+					"from": "Ή",
+					"to": "Ī́"
+				},
+				{
+					"from": "ή",
+					"to": "ī́"
+				},
+				{
+					"from": "Ί",
+					"to": "Í"
+				},
+				{
+					"from": "ί",
+					"to": "í"
+				},
+				{
+					"from": "Ό",
+					"to": "Ó"
+				},
+				{
+					"from": "ό",
+					"to": "ó"
+				},
+				{
+					"from": "Ύ",
+					"to": "Ý"
+				},
+				{
+					"from": "ύ",
+					"to": "ý"
+				},
+				{
+					"from": "Ώ",
+					"to": "Ṓ"
+				},
+				{
+					"from": "ώ",
+					"to": "ṓ"
+				},
+				{
+					"from": "Ϊ",
+					"to": "Ï"
+				},
+				{
+					"from": "ϊ",
+					"to": "ï"
+				},
+				{
+					"from": "Ϋ",
+					"to": "Ÿ"
+				},
+				{
+					"from": "ϋ",
+					"to": "ÿ"
+				},
+				{
+					"from": "ΐ",
+					"to": "ḯ"
+				},
+				{
+					"from": "ΰ",
+					"to": "ÿ́"
+				}
+			]
+		},
+		{
+			"description": "Punctuation marks",
+			"weight": 300,
+			"rules": [
+				{
+					"from": ";",
+					"to": "?",
+					"after": "\\b"
+				},
+				{
+					"from": ";",
+					"to": "?",
+					"after": "\\b"
+				},
+				{
+					"from": "·",
+					"to": ";"
+				},
+				{
+					"from": "‿",
+					"to": "-"
+				}
+			]
+		}
+	]
+}
